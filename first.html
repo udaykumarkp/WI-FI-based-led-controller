@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uday Kumar K P | Embedded Systems Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul id="menu" class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Hi, I'm Uday Kumar</h1>
+        <p>Embedded Systems Engineer passionate about IoT, FPGA, and Industrial Automation.</p>
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn">Contact Me</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am an Embedded Systems Engineer specializing in industrial automation, FPGA design, and real-time embedded systems. With experience in technologies like EtherCAT, CAN, and FPGA development, I am passionate about creating innovative solutions in the field of embedded engineering.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Embedded Programming: C, C++, Python</li>
+            <li>Microcontrollers: STM32, Raspberry Pi, PIC16</li>
+            <li>Protocols: UART, SPI, I2C, CAN, EtherCAT, USB</li>
+            <li>Tools & IDEs: STM32CubeIDE, CODESYS, Quartus prime lite</li>
+            <li>FPGA Development: Terasic DE-10 lite development board</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>EtherCAT Master-Slave Communication</h3>
+            <p>Designed a real-time communication system using EtherCAT protocol with STM32 and LAN9252. Achieved efficient data exchange between master and slave devices.</p>
+        </div>
+        <div class="project">
+            <h3>FPGA-Based Encoder Counter</h3>
+            <p>Built a high-speed encoder counter using the iCE40UP5K FPGA and LS7366R encoder to track rotation and position in real time.</p>
+        </div>
+        <div class="project">
+            <h3>Wi-Fi Controlled LED</h3>
+            <p>Developed a system where an LED connected to an STM32 microcontroller is controlled via a mobile device using the ESP8266 Wi-Fi module. The system allows remote control of the LED over a Wi-Fi network by sending HTTP requests from a mobile browser or app.</p>
+            <ul class="info">
+                <li>STM32 microcontroller controls the LED.</li>
+                <li>ESP8266 module connects to a Wi-Fi network and acts as a web server.</li>
+                <li>Mobile device sends HTTP requests to control the LED on/off state.</li>
+                <li>Implemented using Arduino IDE for ESP8266 programming and STM32CubeIDE for STM32 programming.</li>
+            </ul>
+            <a href="link-to-project-details-or-demo" target="_blank">See project details</a> <!-- Optionally, add a link to the full project -->
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formStatus"></p> <!-- Status message will be displayed here -->
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Uday Kumar K P | Embedded Systems Engineer</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/udaykumarkp/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/udaykumarkp/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+    </footer>
+
+
+</body>
+</html>
